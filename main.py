@@ -5,7 +5,7 @@ from discord.ext import commands
 intents = discord.Intents.default()
 intents.message_content = True
 
-bot = commands.Bot(command_prefix='$', intents=intents)
+bot = commands.Bot(command_prefix='/', intents=intents)
 masalah = {"Pertumbuhan Penduduk dan Urbanisasi": "Pertumbuhan populasi Jakarta yang pesat, baik dari migrasi internal maupun pertumbuhan alami, menyebabkan peningkatan jumlah kendaraan dan kebutuhan transportasi.",
             "Jumlah Kendaraan yang Berlebihan": "Tingginya jumlah kendaraan pribadi, baik mobil maupun sepeda motor, tidak sebanding dengan kapasitas jalan yang ada. Ini mengakibatkan lalu lintas yang padat dan seringkali macet.",
             "Infrastruktur yang Terbatas": "Infrastruktur jalan di Jakarta sering kali tidak cukup untuk menampung volume kendaraan yang ada. Pembangunan jalan baru seringkali tidak sebanding dengan pertumbuhan jumlah kendaraan.",
